@@ -17,7 +17,6 @@ function metadata(sample) {
                 .append('h6')
                 .text(`${key.toUpperCase()}: ${value}`)
         })
-        gauge(metadata.wfreq)
     })
 }
 
